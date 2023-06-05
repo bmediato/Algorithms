@@ -11,7 +11,10 @@ def ordenando(word):
 
     left = ordenando(left)
     right = ordenando(right)
+    return merged_word(left, right)
 
+
+def merged_word(left, right):
     word_merged = []
     i = 0
     j = 0
