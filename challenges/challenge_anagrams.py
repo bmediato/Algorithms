@@ -2,9 +2,6 @@
 # utilizei como base esse link
 
 def ordenando(word):
-    if len(word) <= 1:
-        return word
-
     meio = len(word) // 2
     left = word[:meio]
     right = word[meio:]
